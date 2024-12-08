@@ -17,7 +17,7 @@ if "selected_city" not in st.session_state:
 if "selected_hospital" not in st.session_state:
     st.session_state.selected_hospital = None
 
-df = load_data(r"data\hospital_reviews_cleaned.csv")
+df = load_data("https://raw.githubusercontent.com/anderson-nicole/Final_Project/refs/heads/main/data/hospital_reviews_cleaned.csv)
 
 st.title("2024 Hospital Overview")
 st.subheader("Select a hospital you would like to view")
