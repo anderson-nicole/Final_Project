@@ -8,7 +8,7 @@ def load_data(url):
         df = pd.read_csv(url)
         return df
 
-df = load_data(r"data\hospital_reviews_cleaned.csv")
+df = load_data("https://raw.githubusercontent.com/anderson-nicole/Final_Project/refs/heads/main/data/hospital_reviews_cleaned.csv")
 
 st.title("2024 Patient Survey Results for US Hospitals")
 
